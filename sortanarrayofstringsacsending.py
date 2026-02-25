@@ -1,0 +1,4 @@
+class Solution:
+    def sortByLength(self, arr):
+        return sorted(arr, key=len)
+       
